@@ -30,3 +30,6 @@ select = ["E", "F", "I"]
 profile = "black"
 known_first_party = ["chat", "ingest"]
 line_length = 100
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
