@@ -1,5 +1,5 @@
-import pytest
 from unittest.mock import MagicMock, patch
+
 from chat import answer_query, retrieve_context
 
 
